@@ -36,7 +36,7 @@ window {
     border:                      0px solid;
     border-radius:               0px;
     border-color:                @selected;
-    background-color:            black / 10%;
+    background-color:            black / 90%;
     cursor:                      "default";
 }
 
@@ -56,11 +56,11 @@ mainbox {
 /*****----- Inputbar -----*****/
 inputbar {
     enabled:                     true;
-    spacing:                     10px;
+    spacing:                     24px;
     margin:                      0% 28%;
-    padding:                     10px;
-    border:                      1px solid;
-    border-radius:               6px;
+    padding:                     24px;
+    border:                      2px solid;
+    border-radius:               12px;
     border-color:                white / 25%;
     background-color:            white / 5%;
     text-color:                  @foreground;
@@ -91,8 +91,8 @@ entry {
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     7;
-    lines:                       4;
+    columns:                     5;
+    lines:                       3;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;
@@ -143,7 +143,7 @@ element selected.normal {
 element-icon {
     background-color:            transparent;
     text-color:                  inherit;
-    size:                        72px;
+    size:                        132px;
     cursor:                      inherit;
 }
 element-text {
