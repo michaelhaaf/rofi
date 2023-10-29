@@ -20,14 +20,11 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
+@import "~/.config/rofi/colors/catppuccin.rasi"
+
+/*****----- Global Properties -----*****/
 * {
     font:                        "FiraGO Regular 24";
-    background:                  #180F39CC;
-    background-alt:              #32197DCC;
-    foreground:                  #FFFFFF;
-    selected:                    #FF00F1;
-    active:                      #9878FF;
-    urgent:                      #7D0075;
 }
 
 /*****----- Main Window -----*****/
@@ -43,7 +40,7 @@ window {
 
     /* properties for all widgets */
     enabled:                     true;
-    border-radius:               48px;
+    border-radius:               24px;
     cursor:                      "default";
     background-color:            @background;
 }
@@ -119,7 +116,7 @@ button {
 }
 button selected {
     background-color:            @selected;
-    text-color:                  @foreground;
+    text-color:                  @background;
 }
 
 /*****----- Listview -----*****/
@@ -157,23 +154,23 @@ element normal.normal {
 }
 element normal.urgent {
     background-color:            @urgent;
-    text-color:                  @foreground;
+    text-color:                  @background;
 }
 element normal.active {
     background-color:            @active;
-    text-color:                  @foreground;
+    text-color:                  @background;
 }
 element selected.normal {
     background-color:            @selected;
-    text-color:                  @foreground;
+    text-color:                  @background;
 }
 element selected.urgent {
     background-color:            @urgent;
-    text-color:                  @foreground;
+    text-color:                  @background;
 }
 element selected.active {
     background-color:            @urgent;
-    text-color:                  @foreground;
+    text-color:                  @background;
 }
 element-icon {
     background-color:            transparent;
