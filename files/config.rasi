@@ -32,7 +32,7 @@ configuration {
 
 	/*---------- Drun settings ----------*/
 	drun-categories: "";
-	drun-match-fields: "name,generic,exec,categories,keywords";
+	drun-match-fields: "name,generic,categories";
 	drun-display-format: "{name} [<span weight='light' size='small'><i>({generic})</i></span>]";
 	drun-show-actions: false;
 	drun-url-launcher: "xdg-open";
@@ -83,8 +83,8 @@ configuration {
 
 	/*---------- Misc setting ----------*/
 	terminal: "rofi-sensible-terminal";
-	font: "Mono 12";
-	sort: false;
+	font: "FiraGo 26";
+	sort: true;
 	threads: 0;
 	click-to-exit: true;
 /*	ignored-prefixes: "";*/
